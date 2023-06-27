@@ -1,0 +1,72 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    font-color:purple;
+    font-weight:300px;
+    background:rgb(255, 255, 255);
+ }
+
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-color:purple;
+}
+
+ #logo {
+  float:left;
+  margin-left: 40px;
+ }
+
+ #hero-outer {
+   height:600px;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+ }
+
+ /* Hero image */
+
+ #hero-image {
+   height:600px;
+   width:100%;
+   background:url('../images/hero-image.jpg') no-repeat center center;
+   background-size:cover;
+   background-position:center;
+ }
+
+/* Cover text */
+
+#cover-text {
+   color:purple;
+   font-size:130%;
+   font-family: arial;
+   letter-spacing: 4px;
+
+   width: 300px;
+   height:200px;
+   padding-top: 40px;
+   padding-left: 10px;
+
+   background-color:rgba(255, 232, 26, .3);
+
+   bottom: 30px;
+   left: 150px;
+
+   position:absolute;
+   }
+
+ /* Navigation tabs */
+
+.nav-wrap {
+    text-align:center;
+}
+
+ .navigation div {
+  display: none;
+  text-align:center;
+}
+
+.navigation div:target {
+  display: block;
+
+}
