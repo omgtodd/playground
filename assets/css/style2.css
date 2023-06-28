@@ -1,0 +1,32 @@
+.navigation a {
+    border:solid;
+    border-width:1px;
+    border-color:black;
+    text-align:center;
+    display:inline-block;
+    margin: auto;
+    padding: 10px;
+    color: red;
+}
+
+.nav {
+    list-style:none;
+    text-align:center;
+    margin: 0px;
+    padding:0px;
+}
+
+.nav li {
+    display:inline-block;
+    padding:20px;
+}
+
+   .navigation div {
+    display: none;
+    text-align:center;
+  }
+  
+  .navigation div:target {
+    display: block;
+  
+  }
