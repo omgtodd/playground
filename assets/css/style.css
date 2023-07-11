@@ -78,3 +78,19 @@ h1 {
   display: block;
 
 }
+
+/* Table */
+
+table {
+  margin:auto;
+  width: 30%;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+.table-docs  {
+  list-style-type: none;
+}
