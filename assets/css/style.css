@@ -94,3 +94,26 @@ table, td, th {
 .table-docs  {
   list-style-type: none;
 }
+
+/* footer links */
+
+footer {
+  height:150px;
+}
+
+.social-links {
+  text-align:center;
+  list-style-type:none;
+  
+}
+
+.social-links > li {
+  display:inline;
+}
+
+.social-links i {
+  font-size:160%;
+  margin:1%;
+  padding:5%;
+  color:purple;
+}
